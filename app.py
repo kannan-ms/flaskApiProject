@@ -8,7 +8,7 @@ books = [
     {"id": 2, "title": "1984", "author": "George Orwell"},
     {"id": 3, "title": "Force","author":"Kannan"}
 ]
-
+# This is a test comment for Git practice
 # Homepage Route (to avoid 404 on root)
 @app.route('/')
 def home():
