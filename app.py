@@ -28,9 +28,8 @@ def get_book(book_id):
     return jsonify({"error": "Book not found"}), 404
 
 # 3. POST Request - Create a new book
-##
-##
-##
+# CHANGES MADE IN THIS LINE FOR LEARN MERGE CONFLICT
+
 @app.route('/books', methods=['POST'])
 def add_book():
     new_book = request.get_json()
